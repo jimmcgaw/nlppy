@@ -4,12 +4,12 @@
   "description": "A barebones Python app, which can easily be deployed to Heroku.",
   "main": "gulpfile.js",
   "scripts": {
-    "preinstall": "bower install",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preinstall": "bower install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "cacheDirectories": ["node_modules", "hello/static/lib", "nltkdata" ],
   "dependencies": {
     "bower": "1.7.9"
   },
