@@ -1,0 +1,19 @@
+{
+  "name": "nlppy",
+  "version": "1.0.0",
+  "description": "A barebones Python app, which can easily be deployed to Heroku.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.1.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-sass": "^2.3.2",
+    "wiredep": "^4.0.0"
+  }
+}

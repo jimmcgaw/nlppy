@@ -1,8 +1,8 @@
 {
-  "name": "Python on Heroku example",
-  "description": "A barebones Python app, which can easily be deployed to Heroku.",
+  "name": "Natural Language Processing - POS Tagger",
+  "description": "A part-of-speech tagger that lets users type sentences and shows them the parts of speech.",
   "image": "heroku/python",
-  "repository": "https://github.com/heroku/python-getting-started",
+  "repository": "https://github.com/jimmcgaw/nlppy",
   "keywords": ["python", "django" ],
   "addons": [ "heroku-postgresql" ]
 }
