@@ -4,7 +4,7 @@
   "description": "A barebones Python app, which can easily be deployed to Heroku.",
   "main": "gulpfile.js",
   "scripts": {
-    "postinstall": "./node_modules/bower/bin/bower install",
+    "preinstall": "./node_modules/bower/bin/bower install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
