@@ -11,5 +11,6 @@ import hello.views
 
 urlpatterns = [
     url(r'^$', hello.views.index, name='index'),
+    url(r'^pos/$', hello.views.pos_lookup, name='pos_lookup'),
     url(r'^admin/', include(admin.site.urls)),
 ]
